@@ -1,5 +1,7 @@
 #!/bin/sh
 
+echo "Hi"
+
 set -e
 
 echo "Login"
