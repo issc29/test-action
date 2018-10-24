@@ -1,0 +1,22 @@
+{
+  "name": "simple-node-app",
+  "version": "1.0.0",
+  "description": "simple node app to demonstrate workflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfilosa/simple-node-app.git"
+  },
+  "author": "mfilosa@github.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfilosa/simple-node-app/issues"
+  },
+  "homepage": "https://github.com/mfilosa/simple-node-app#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
