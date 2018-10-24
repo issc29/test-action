@@ -1,9 +1,9 @@
 workflow "Example Workflow" {
   on = "push"
-  resolves = ["sdras/example-azure-deploy@14059e504a026d8ad5766c3270cf0f2a1c5e79e6"]
+  resolves = ["azdeploy"]
 }
 
-action "sdras/example-azure-deploy@14059e504a026d8ad5766c3270cf0f2a1c5e79e6" {
+action "azdeploy" {
   secrets = ["SERVICE_PASS"]
   env = {
     SERVICE_PRINCIPAL = "http://ServicePrincipalName"
